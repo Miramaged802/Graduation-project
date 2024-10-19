@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<main>
+
+    <head>
+        <title>Classics</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="../css/styleStore.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        </link>
+        <script src="script.js"></script>
+    </head>
+
+</main>
+
+<body id="background">
+    <!---------NAVIGATION REGION ------------->
+
+
+    <div id=upper>
+        <div id="logo">
+            <a href="index.html"><img src="../images/logo.png" width="160px" height="auto"></a>
+        </div>
+        <ul id="nav">
+            <li>
+                <select name="location" id="search_location" class="search">
+                    <option value="Cairo">Cairo</option>
+                    <option value="Giza">Giza</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Suez">Suez</option>
+                </select>
+            </li>
+            <li id="search_product">
+                <input type="text" name="search" placeholder="Find Antiques, Handmade Crafts and more" class="search"
+                    id="search_bar">
+                <button type="submit" id="button_search"><img src="../images/search.png" width="30px" height="30px"
+                        id="search_image"></button>
+            </li>
+            <li id="social_logo">
+                <a href="cart.html" class="navi"><img src="../images/cart.png" width="30px" height="auto"
+                        class="social_logo"></a>
+                <a href="index.html" class="navi"><img src="../images/whatsapp.png" width="30px" height="auto"
+                        class="social_logo"></a>
+            </li>
+
+            <div id="acc">
+                <a href="../html/login.html"><button id="log">Login</button></a>
+                <a href="../html/register.html"><button id="reg">Join Us!</button></a>
+            </div>
+        </ul>
+    </div>
+
+    <!----- UPPER -->
+    <!------------PRODUCTS AREA------------------->
+    <div id="store_area">
+        <div id="left_hand">
+            <h2>Filters</h2>
+            <form id="filtering">
+                <h4>Price Range</h4>
+                <div id="price_selector">
+                    <input type="number" placeholder="Minimum" class="pricer" id="minimum_price">
+                    <input type="number" placeholder="Maximum" class="pricer" id="maximum_price">
+                </div>
+                <h4>Region</h4>
+                <select name="location" class="search">
+                    <option value="Cairo">Cairo</option>
+                    <option value="Giza">Giza</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Suez">Suez</option>
+                </select>
+
+                <button id="search">Search</button>
+            </form>
+
+        </div>
+        <div id="right_hand">
+            <div id="product_selector">
+                <input id="select_all" type="radio" name="selection" Value="all" checked>
+                <input id="select_antiques" type="radio" name="selection" Value="antiques">
+                <input id="select_handmade" type="radio" name="selection" Value="handmadecrafts">
+            </div>
+
+            <div class="product_box">
+                <img class="product_image" src="../images/product.jpg" height="220px" width="220px">
+                <div class="product_details">
+                    <h2>Product Title with Small Details</h2>
+                    <h3><strong>4,000</strong>EGP</h3>
+                    <h4>Negotiable</h4>
+                    <h5>Address</h5>
+                    <h6>Category</h6>
+                    <div class="decide_region">
+                        <button id="add_cart">Add to Cart</button>
+                        <button id="contact_seller"><a href="seller.html">Contact Seller</a></button>
+                    </div>
+                </div>
+                <div class="extra_details">
+                    <button><img src="../images/heart.png" width="30px" height="30px"></button>
+                    <p>VERIFIED</p>
+                </div>
+            </div>
+
+            <!-----------------DEAR TAREK, DELETE THIS---------------------->
+            <div class="product_box">
+                <img class="product_image" src="../images/product.jpg" height="220px" width="220px">
+                <div class="product_details">
+                    <h2>Product Title with Small Details</h2>
+                    <h3><strong>4,000</strong>EGP</h3>
+                    <h4>Negotiable</h4>
+                    <h5>Address</h5>
+                    <h6>Category</h6>
+                    <div class="decide_region">
+                        <button id="add_cart">Add to Cart</button>
+                        <button id="contact_seller"><a href="seller.html">Contact Seller</a></button>
+                    </div>
+                </div>
+                <div class="extra_details">
+                    <button><img src="../images/heart.png" width="30px" height="30px"></button>
+                    <p>VERIFIED</p>
+                </div>
+            </div>
+
+            <div class="product_box">
+                <img class="product_image" src="../images/product.jpg" height="220px" width="220px">
+                <div class="product_details">
+                    <h2>Product Title with Small Details</h2>
+                    <h3><strong>4,000</strong>EGP</h3>
+                    <h4>Negotiable</h4>
+                    <h5>Address</h5>
+                    <h6>Category</h6>
+                    <div class="decide_region">
+                        <button id="add_cart">Add to Cart</button>
+                        <button id="contact_seller"><a href="seller.html">Contact Seller</a></button>
+                    </div>
+                </div>
+                <div class="extra_details">
+                    <button><img src="../images/heart.png" width="30px" height="30px"></button>
+                    <p>VERIFIED</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER--------------------------->
+
+    <div id="footer">
+        <div id="helper">
+            <div id="questions">Questions? <a href="../html/about.html" id="conta">Contact Us</a></div>
+        </div>
+        <div id="lists">
+            <ul id="list_one">
+                <a href="../html/terms.html">
+                    <li class="liste">Terms of use</li>
+                </a>
+               
+            </ul>
+            <ul id="list_two">
+                <a href="../html/policies.html">
+                    <li class="liste">Privacy Policies</li>
+                </a>
+            </ul>
+            <ul id="list_three">
+                             <a href="../html/cookies.html">
+                    <li class="liste">Cookie Policies</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+</body>

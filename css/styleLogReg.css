@@ -1,0 +1,278 @@
+/*--------------و حياة الغالية DON'T TOUCH ANYTHING----------------*/
+body{
+    padding: 0;
+    margin: 0;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+/*---------------BACKGROUND ---------------*/
+
+#background {
+    background-color:#000000 ;
+    background-size: 100%;
+    font-family: 'bebas Neue';
+}
+
+/*---------------NAVIGATION (APPLIED TO ALL PAGES) ---------------*/
+
+#logo {
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    transition: 0.5s;
+    margin-bottom: -30px;
+
+}
+
+
+#logo:hover {
+    filter: brightness(2);
+    filter: contrast(2);
+}
+
+
+/*---------------REGISTER/LOGIN AREA ---------------*/
+
+#register {
+    height: 900px;
+}
+
+#login {
+    height: 550px;
+    margin-top: -5px;
+}
+
+.logReg {
+    background-color: white;
+    width: 700px;
+    margin-top: -200px;
+    font-family: Bebas Neue;
+    margin: auto;
+    margin-bottom: 50px;
+    /*box-shadow: 10px 10px;*/
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.logReg h2 {
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#loginTitle {
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.logReg .region {
+    display: flex;
+    flex-direction: column;
+}
+
+#register_form {
+    margin-top: 50px;
+    margin: auto;
+}
+
+#register .name {
+    margin-bottom: 10px;
+}
+
+.logReg input {
+    width: 540px;
+    margin-left: 70px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    padding-left: 10px;
+}
+
+.logReg label {
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+#region_name input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 240px;
+    height: 40px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#region_name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name_sector {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#gender_region {
+    display: flex;
+    flex-direction: column;
+}
+
+#gender_select {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 70px;
+    margin-bottom: 40px;
+}
+
+
+.checker input[type="radio"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    width: 15px;
+    height: 15px;
+    border: #000000 solid 1.5px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.checker input[type="radio"]:hover {
+    background-color: #f4a000;
+}
+
+.checker input[type="radio"]:checked {
+    background-color: #f4a000;
+}
+
+
+.logReg button {
+    width: 544px;
+    background-color: #b38e35;
+    height: 50px;
+    color:white;   
+    font-size: 27px;
+    border: none;
+    margin-left: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: bebas neue;
+}
+
+#submit_reg button:hover {
+    background-color: #f4a000;
+}
+
+#signuplink {
+    font-size: 20px;
+    margin-top: 11px;
+    width: 544px;
+    text-align: center;
+    align-content: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.logReg a {
+    text-decoration: none;
+    color: rgb(0, 159, 61);
+}
+
+.logReg a:hover {
+    color: rgb(30, 255, 0);
+    transition: 0.5s;
+}
+
+#terms {
+    width: 544px;
+    text-align: center;
+    align-content: center;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+#terms a {
+    text-decoration: none;
+    color: rgb(13, 97, 5);
+    font-weight: bold;
+}
+
+#terms a:hover {
+    color: rgb(30, 255, 0);
+    transition: 0.5s;
+}
+
+
+
+/*Footer area*/
+
+
+
+#footer {
+    background-color: rgb(41, 41, 41);
+    height: 400px;
+    width: 100%;
+    font-size: 20px;
+    /* margin-left: -30px;
+    margin-right: 30px; */
+    padding-bottom: 30px;
+}
+
+#helper {
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+#conta:hover {
+    color: rgb(182, 182, 182);
+}
+
+#questions {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#conta {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#lists {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 200px;
+    justify-content: center;
+}
+
+.liste {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color:rgb(194, 194, 194);
+    list-style-type: none;
+}
+
+.liste:hover {
+    color:white;
+}
+
+#footer a {
+    text-decoration: none;
+}
